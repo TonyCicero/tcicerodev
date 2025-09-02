@@ -89,19 +89,24 @@ function App() {
   }, []);
 
   return (
+
+    <head>
+    	<script async defer src="https://buttons.github.io/buttons.js"></script>
+    	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </head>
+      
     <div className="App">
-      <h1>TCiceroDev</h1>
+
 
 
       <div class="container">
+        <h1>TCiceroDev</h1>
         <div class="avatar">
           <a href="https://github.com/TonyCicero">
             <img src="https://avatars.githubusercontent.com/u/22878106?v=4" alt="TCiceroDev" />
           </a>
         </div>
         <div class="content">
-          <h1>Tony Cicero</h1>
-  
           <p>
             <span><a href="https://twitter.com/TCiceroDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @TCiceroDev</a></span>
             <span><a class="github-button" href="https://github.com/TonyCicero" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Follow @TonyCicero on GitHub">Follow @TonyCicero</a></span>
