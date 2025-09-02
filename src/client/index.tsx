@@ -89,16 +89,8 @@ function App() {
   }, []);
 
   return (
-
-    <head>
-    	<script async defer src="https://buttons.github.io/buttons.js"></script>
-    	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </head>
       
     <div className="App">
-
-
-
       <div class="container">
         <h1>TCiceroDev</h1>
         <div class="avatar">
