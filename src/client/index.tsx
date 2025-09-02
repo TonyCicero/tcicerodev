@@ -91,6 +91,25 @@ function App() {
   return (
     <div className="App">
       <h1>TCiceroDev</h1>
+
+
+      <div class="container">
+        <div class="avatar">
+          <a href="https://github.com/TonyCicero">
+            <img src="https://avatars.githubusercontent.com/u/22878106?v=4" alt="TCiceroDev" />
+          </a>
+        </div>
+        <div class="content">
+          <h1>Tony Cicero</h1>
+  
+          <p>
+            <span><a href="https://twitter.com/TCiceroDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @TCiceroDev</a></span>
+            <span><a class="github-button" href="https://github.com/TonyCicero" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Follow @TonyCicero on GitHub">Follow @TonyCicero</a></span>
+          </p>
+        </div>
+      </div>
+
+      
       {counter !== 0 ? (
         <p>
           <b>{counter}</b> {counter === 1 ? "person" : "people"} connected.
